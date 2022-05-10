@@ -1,0 +1,32 @@
+
+@import "estructura";
+@import "titulos";
+@import "sass2";
+
+.contenedcard-group {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr, 1fr, 1fr;
+    grid-template-rows: repeat (2, auto);
+
+    h1 {
+        text-align: center;
+    }
+    
+    h2 {
+        text-align: center;
+        padding-bottom: 2%;
+    }
+    
+    .p-3 {
+        text-align: center;
+    }
+    
+    .card:hover {
+        cursor: pointer;
+        transform:scale(1.05);
+        transition: 0.4s;
+    }
+}
+
+
